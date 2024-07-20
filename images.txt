@@ -2,10 +2,10 @@ nginx
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
-zulip/docker-zulip:latest
-postgres:12
-memcached:1.5-alpine
-redis:6-alpine
-rabbitmq:3.8
+zulip/docker-zulip:8.4-0
+postgres:14
+memcached:alpine
+redis:alpine
+rabbitmq:3.7.7
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
