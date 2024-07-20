@@ -3,7 +3,7 @@ nginx
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 zulip/docker-zulip:8.4-0
-postgres:14
+zulip/zulip-postgresql:14
 memcached:alpine
 redis:alpine
 rabbitmq:3.7.7
