@@ -5,9 +5,7 @@ k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 zulip/docker-zulip:8.4-0
 zulip/zulip-postgresql:14
 memcached:alpine
-redis:alpine
 rabbitmq:3.7.7
-ubuntu:20.04
 mongo:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
